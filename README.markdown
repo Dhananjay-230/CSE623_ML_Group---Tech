@@ -48,18 +48,6 @@ This project implements a lightweight person re-identification (ReID) system usi
 3. **Evaluate Results**:
    - Outputs include cross-validation accuracy, training accuracy, and CMC scores (Rank-1 and Rank-5 accuracies).
 
-## Project Structure
-```
-├── data/                   # Kaggle Person ReID dataset
-├── src/                    # Source code
-│   ├── main.py             # Main pipeline script
-│   ├── feature_extraction.py # Feature extractors (HOG, SIFT, color histograms)
-│   ├── classification.py    # KNN classification and similarity metrics
-│   ├── evaluation.py       # Performance metrics calculation
-├── results/                # Output metrics and visualizations
-├── README.md               # Project documentation
-```
-
 ## Future Work
 - Evaluate Rank-1 and Rank-5 accuracies for color-based feature extractors.
 - Optimize KNN for real-time performance.
